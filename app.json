@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/center/index",
+    "pages/mine/index",
+    "pages/tag/index",
+    "pages/notebook/index",
+    "pages/tear/index",
+    "pages/log/log"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "自定义组件",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#fdb975",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/icon/home_nor.png",
+        "selectedIconPath": "static/icon/home_pre.png"
+      },
+      {
+        "pagePath": "pages/tag/index",
+        "text": "标签",
+        "iconPath": "static/icon/icon_tag.png",
+        "selectedIconPath": "static/icon/icon_tag_active.png"
+      },
+      {
+        "pagePath": "pages/center/index",
+        "iconPath": "static/icon/icon_plus_big.png",
+        "selectedIconPath": "static/icon/icon_plus_big.png"
+      },
+      {
+        "pagePath": "pages/notebook/index",
+        "text": "日记",
+        "iconPath": "/static/icon/icon_plus_big.png",
+        "selectedIconPath": "/static/icon/icon_plus_big.png"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的",
+        "iconPath": "/static/icon/mine_nor.png",
+        "selectedIconPath": "/static/icon/mine_pre.png"
+      }
+    ]
+  }
+}

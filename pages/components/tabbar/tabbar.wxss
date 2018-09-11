@@ -1,0 +1,63 @@
+.com-tabbar {
+  bottom: 0;
+  position: fixed;
+  height: 95rpx;
+  border-top: 1px solid #dcdcdc;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: #999;
+  background-color: #fff;
+  padding: 0;
+
+
+}
+view {
+/* word-break:break-all; */
+/* overflow:auto; */
+
+}
+
+.com-tabbar-item {
+  font-size: 20rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.com-tabbar>view:nth-of-type(3) {
+  position: fixed;
+  bottom: 30rpx;
+  z-index: 222;
+  background:#fff;
+}
+.com-tabbar>view:nth-of-type(2){
+padding-right:150rpx;
+
+}
+.com-tabbar>view:nth-of-type(3) image{
+  width: 80rpx;
+  height: 80rpx;
+  z-index: 333;
+  border-radius:50%;
+}
+.com-tabbar-icon {
+  width: 28px;
+  height: 28px;
+}
+
+
+
+.com-tabbar-text {
+  margin-top: 4px;
+  font-size: 10px;
+  line-height: 10px;
+}
+
+.com-tabbar-item_active {
+  color: #7788dd;
+}
